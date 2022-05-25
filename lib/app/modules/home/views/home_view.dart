@@ -14,8 +14,8 @@ class HomeView extends GetView<HomeController> {
       ),
       body: Center(
         child: ElevatedButton(
-          onPressed: ()=> controller.getDataFromExcel(),
-          child: Text('Get Data From Excel'),
+          onPressed: ()=> controller.getFileFromLocal(),
+          child: Text('Select Excel Sheet'),
         ),
       ),
     );
